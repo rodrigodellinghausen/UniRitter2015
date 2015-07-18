@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Web.Http;
+﻿using UniRitter.UniRitter2015.Models;
 
 namespace UniRitter.UniRitter2015.Controllers
 {
-    public class PostsController : ApiController
+    public class PostsController : BaseController<PostModel>
     {
     }
 }
